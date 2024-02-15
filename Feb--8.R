@@ -9,7 +9,7 @@ my_data<- mtcars
 #Create a plot of your data
 ggscatter(my_data, x = "mpg", y = "wt", add = "reg.line",cor.method = "pearson", xlab = "Miles/(US) gallon", ylab = "Weight (1000 lbs)")
 
-#Continuation 2/15/2024
+#Continuation 2/13/2024
 
 #Create a plot of your data (change xlab and ylab)
 ggscatter(my_data, x = "mpg", y = "wt", add = "reg.line",cor.method = "pearson", xlab = "Final Composition", ylab = "car weight")
